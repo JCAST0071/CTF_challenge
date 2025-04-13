@@ -1,0 +1,217 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #a3a3a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#dashmessage {
+    font-size: 50px;
+    color: red;
+}
+#dashmessage2 {
+    font-size: 50px;
+    color: rgb(85, 255, 0);
+    text-align: center;
+}
+#instruction {
+    color: rgb(255, 9, 9);
+}
+
+/* Fake Bank Logo */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Login Container */
+.login-container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.login-container label {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input fields */
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Login Button */
+button {
+    width: auto;
+    background: #0056b3;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #004494;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Dashboard Styles */
+.dashboard-container {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dashboard-container h2 {
+    color: #333;
+}
+
+.dashboard-container p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+.table-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    width: 100%;
+    margin: 0 auto;
+}
+
+table {
+    width: 80%; /* Adjust width as needed */
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #0056b3;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f6f9;
+}
+
+
+
+.dashboard-container button:hover {
+    background: #00ff26;
+}
+/* Positive (Deposit) Amounts */
+.positive {
+    color: green;
+    font-weight: bold;
+}
+
+/* Negative (Withdrawal) Amounts */
+.negative {
+    color: rgb(156, 0, 0);
+    font-weight: bold;
+}
+
+.proceed-btn {
+    padding: 5px 10px;
+    background-color: #0e7400;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #2ecc71;
+    transition: 0.3s ease-in-out;
+    animation: glow .5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px #2ecc71, 0 0 10px #000000;
+    }
+    to {
+        box-shadow: 0 0 20px #bbff00, 0 0 30px #7bff00;
+    }
+}
+
+.yellow{
+    color: rgba(255, 196, 0, 0.943);
+    font-weight: bold;
+}
+
+.right-text {
+    position: absolute;
+    top: 600px; /* adjust as needed */
+    right: 110px; /* distance from the right edge */
+    color: #444;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#hackedpage{
+    color: #ff0000;
+    background-color: #000000;
+}
+
+#bottomleft {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: rgb(0, 0, 0); /* or any text color */
+    font-size: 16px; /* adjust as needed */
+  }

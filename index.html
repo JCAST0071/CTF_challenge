@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Bank - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script>
+        // Function to simulate a simple SQL injection vulnerability check
+        function checkLogin2() {
+            var userId = document.getElementById2("userId").value;
+            
+            // Simulating SQL injection vulnerability
+            var query = `SELECT * FROM users WHERE id = '${userId}'`;
+
+            // Check if the ID matches the correct one (you can set this to any number)
+            if (userId === "easypassword") {
+                // Redirect to the next page (CTF flag or challenge)
+                window.location.href = "next_page.html"; 
+            } else {
+                document.getElementById2("error-message").style.display = "block";
+            }
+        }
+    </script> -->
+    <script>
+        // Function to simulate a simple SQL injection vulnerability check
+        function checkLogin3() {
+            var userId = document.getElementById3("userId").value;
+            
+            // Simulating SQL injection vulnerability
+            var query = `SELECT * FROM users WHERE id = '${userId}'`;
+
+            // Check if the ID matches the correct one (you can set this to any number)
+            if (userId === "abc123") {
+                // Redirect to the next page (CTF flag or challenge)
+                window.location.href = "next_page.html"; 
+            } else {
+                document.getElementById3("error-message").style.display = "block";
+            }
+        }
+    </script>
+    <script>
+        // Function to simulate a simple SQL injection vulnerability check
+        function checkLogin4() {
+            var userId = document.getElementById4("userId").value;
+            
+            // Simulating SQL injection vulnerability
+            var query = `SELECT * FROM users WHERE id = '${userId}'`;
+
+            // Check if the ID matches the correct one (you can set this to any number)
+            if (userId === "bypasscode") {
+                // Redirect to the next page (CTF flag or challenge)
+                window.location.href = "next_page.html"; 
+            } else {
+                document.getElementById4("error-message").style.display = "block";
+            }
+        }
+    </script>
+    <script>
+        // Function to simulate a simple SQL injection vulnerability check
+        function checkLogin2() {
+            var userId = document.getElementById2("userId").value;
+            
+            // Simulating SQL injection vulnerability
+            var query = `SELECT * FROM users WHERE id = '${userId}'`;
+
+            // Check if the ID matches the correct one (you can set this to any number)
+            if (userId === "easypassword") {
+                // Redirect to the next page (CTF flag or challenge)
+                window.location.href = "next_page.html"; 
+            } else {
+                document.getElementById2("error-message").style.display = "block";
+            }
+        }
+    </script>
+    <script>
+        // Function to simulate a simple SQL injection vulnerability check
+        function checkLogin1() {
+            var userId = document.getElementById1("userId").value;
+            
+            // Simulating SQL injection vulnerability
+            var query = `SELECT * FROM users WHERE id = '${userId}'`;
+
+            // Check if the ID matches the correct one (you can set this to any number)
+            if (userId === "passwordisthis") {
+                // Redirect to the next page (CTF flag or challenge)
+                window.location.href = "next_page.html"; 
+            } else {
+                document.getElementById1("error-message").style.display = "block";
+            }
+        }
+    </script>
+    <script>
+        // Function to simulate a simple SQL injection vulnerability check
+        function checkLogin() {
+            var userId = document.getElementById("userId").value;
+            
+            // Simulating SQL injection vulnerability
+            var query = `SELECT * FROM users WHERE id = '${userId}'`;
+
+            // Check if the ID matches the correct one (you can set this to any number)
+            if (userId === "' or 1=1 --") {
+                // Redirect to the next page (CTF flag or challenge)
+                window.location.href = "next_page.html"; 
+            } else {
+                document.getElementById("error-message").style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Millionair Bank Login</h2>
+        <form onsubmit="event.preventDefault(); checkLogin();">
+            <label for="userId">Enter Your ID#:</label>
+            <input type="text" id="userId" name="userId" required><br><br>
+            
+            <button type="submit">Login</button>
+        </form>
+        
+        <div id="error-message" class="error" style="display: none;">
+            Incorrect ID#. Please try again.
+        </div>
+    </div>
+</body>
+</html>
